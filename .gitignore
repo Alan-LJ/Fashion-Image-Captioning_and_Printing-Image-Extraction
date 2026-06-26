@@ -1,0 +1,23 @@
+# Excluded model/checkpoint artifacts
+image_caption_infer/fixed_reward_seed2026_20260515_184503/
+itr_pe/weights/
+
+# Python cache/runtime files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Local machine cache accidentally created under the project root
+%SystemDrive%/

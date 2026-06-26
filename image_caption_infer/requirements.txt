@@ -1,0 +1,10 @@
+# Minimal dependencies for local/AutoDL single-image SEAL inference.
+# Install a CUDA-enabled PyTorch build first, preferably by selecting an AutoDL
+# PyTorch image or following the official PyTorch install command.
+
+transformers>=4.45.0
+accelerate>=0.29.0
+peft>=0.18.1
+qwen-vl-utils>=0.0.4
+safetensors>=0.4.0
+Pillow>=9.0.0

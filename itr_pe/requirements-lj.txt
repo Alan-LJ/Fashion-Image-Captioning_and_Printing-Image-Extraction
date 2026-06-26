@@ -1,0 +1,18 @@
+﻿# Minimal extra dependencies for itr_xyc IS-Net inference on AutoDL.
+#
+# This project does not call an LLM/VLM. It runs an ISNetDIS CNN segmentation
+# model and loads the local .pth weight file.
+#
+# Assumption: use an AutoDL image that already includes torch + torchvision
+# with a matching CUDA runtime. Do not reinstall torch from this file unless
+# your base image does not provide it.
+#
+# PyTorch and torchvision are expected to be installed separately and matched
+# to the server CUDA runtime.
+#
+# The current deployment scripts use Pillow for image I/O and RGBA cutouts, so
+# scikit-image and OpenCV are not required.
+
+numpy
+tqdm
+Pillow
