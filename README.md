@@ -5,6 +5,12 @@
 - 图生文：Qwen2-VL-2B + 本地 SEAL LoRA adapter。
 - 印花图像提取：IS-Net 生成灰度 mask，并输出 RGBA 印花抠图。
 
+## 公开仓库说明
+
+本公开仓库中暂未上传模型推理权重。
+
+后续将会提供 demo 入口。
+
 ## 效果展示
 
 | 印花图像提取 | 图生文推理 |
@@ -18,8 +24,8 @@
 ## 目录
 
 ```text
-image_caption_infer/   # 图生文推理脚本、adapter、依赖说明
-itr_pe/                # 印花图像提取脚本、IS-Net 权重、依赖说明
+image_caption_infer/   # 图生文推理脚本、依赖说明
+itr_pe/                # 印花图像提取脚本、依赖说明
 xdcv_1024/             # 网页展示平台
 demo/                  # 示例图片
 ```
@@ -44,11 +50,11 @@ http://127.0.0.1:7860
 xdcv_1024/README.md
 ```
 
-## 权重文件
+## 模型推理权重
 
-仓库包含大模型/推理权重时需要使用 Git LFS：
+本公开仓库中暂未上传模型推理权重，包括：
 
 - `image_caption_infer/fixed_reward_seed2026_20260515_184503/adapter_model.safetensors`
 - `itr_pe/weights/*.pth`
 
-`.gitattributes` 已配置 `*.pth` 和 `*.safetensors` 走 Git LFS。
+如后续上传大模型/推理权重，需要使用 Git LFS。
