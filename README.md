@@ -35,19 +35,13 @@ demo/                  # 示例图片
 ```bash
 cd /home/xd/lj
 source .fic/bin/activate
-python xdcv_1024/server.py --host 127.0.0.1 --port 7860
+python xdcv_1024/server.py --host 0.0.0.1 --port 7860
 ```
 
-浏览器访问：
+后台服务开启状态下，校园网内设备可通过浏览器登录访问（账号密码、IP 及端口联系本人）：
 
 ```text
-http://127.0.0.1:7860
-```
-
-公网访问请先阅读：
-
-```text
-xdcv_1024/README.md
+http://<校园网内网IP>:<端口>
 ```
 
 ## 模型推理权重
