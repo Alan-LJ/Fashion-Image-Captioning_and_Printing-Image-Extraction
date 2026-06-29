@@ -2,7 +2,7 @@
 
 本项目是一个本地视觉推理 demo 平台，包含两个功能：
 
-- 图生文：Qwen2-VL-2B + 本地 SEAL LoRA adapter(SEAL: Spatial Entity Alignment Learning for Reducing Hallucinations in Fashion Image Captioning, EMNLP2026已投稿)。
+- 图生文：Qwen2-VL-2B + 本地 SEAL LoRA adapter(SEAL: Spatial Entity Alignment Learning for Reducing Hallucinations in Fashion Image Captioning,已投稿EMNLP2026)。
 - 印花图像提取：IS-Net 生成灰度 mask，并输出 RGBA 印花抠图。
 
 ## 公开仓库说明
